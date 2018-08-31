@@ -1,0 +1,35 @@
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+
+/* SVG */
+
+.hidden{
+    display: none;
+}
+
+.svg-ic{
+    fill:#55ACEE;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    color: #F1F2F2;
+    --color-change: #fff;
+}
+
+.svg-ic.capa-2{
+    fill:#CF6F55;
+}
+
+.svg-ic.capa-2:hover{
+    fill: #b05047;
+}
+
+.svg-ic:hover{
+    fill: #4887be;
+    color: red;
+    --color-change: green;
+    transition: all .3s ease-in-out;
+}
